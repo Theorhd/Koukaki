@@ -1,0 +1,237 @@
+[07-Feb-2024 17:26:54 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\plugins\all-in-one-wp-migration\lib\model\import\class-ai1wm-import-validate.php:79
+Stack trace:
+#0 C:\Users\theor\Local Sites\animationchats\app\public\wp-content\plugins\all-in-one-wp-migration\lib\controller\class-ai1wm-import-controller.php(73): Ai1wm_Import_Validate::execute(Array)
+#1 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\class-wp-hook.php(324): Ai1wm_Import_Controller::import(Array)
+#2 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\Users\theor\Local Sites\animationchats\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ai1wm_i...')
+#5 {main}
+  thrown in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\plugins\all-in-one-wp-migration\lib\model\import\class-ai1wm-import-validate.php on line 79
+[07-Feb-2024 17:26:55 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\plugins\all-in-one-wp-migration\lib\model\import\class-ai1wm-import-validate.php:79
+Stack trace:
+#0 C:\Users\theor\Local Sites\animationchats\app\public\wp-content\plugins\all-in-one-wp-migration\lib\controller\class-ai1wm-import-controller.php(73): Ai1wm_Import_Validate::execute(Array)
+#1 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\class-wp-hook.php(324): Ai1wm_Import_Controller::import(Array)
+#2 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\Users\theor\Local Sites\animationchats\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ai1wm_i...')
+#5 {main}
+  thrown in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\plugins\all-in-one-wp-migration\lib\model\import\class-ai1wm-import-validate.php on line 79
+[07-Feb-2024 17:26:56 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\plugins\all-in-one-wp-migration\lib\model\import\class-ai1wm-import-validate.php:79
+Stack trace:
+#0 C:\Users\theor\Local Sites\animationchats\app\public\wp-content\plugins\all-in-one-wp-migration\lib\controller\class-ai1wm-import-controller.php(73): Ai1wm_Import_Validate::execute(Array)
+#1 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\class-wp-hook.php(324): Ai1wm_Import_Controller::import(Array)
+#2 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\Users\theor\Local Sites\animationchats\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ai1wm_i...')
+#5 {main}
+  thrown in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\plugins\all-in-one-wp-migration\lib\model\import\class-ai1wm-import-validate.php on line 79
+[07-Feb-2024 17:26:58 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\plugins\all-in-one-wp-migration\lib\model\import\class-ai1wm-import-validate.php:79
+Stack trace:
+#0 C:\Users\theor\Local Sites\animationchats\app\public\wp-content\plugins\all-in-one-wp-migration\lib\controller\class-ai1wm-import-controller.php(73): Ai1wm_Import_Validate::execute(Array)
+#1 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\class-wp-hook.php(324): Ai1wm_Import_Controller::import(Array)
+#2 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\Users\theor\Local Sites\animationchats\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ai1wm_i...')
+#5 {main}
+  thrown in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\plugins\all-in-one-wp-migration\lib\model\import\class-ai1wm-import-validate.php on line 79
+[07-Feb-2024 17:27:01 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\plugins\all-in-one-wp-migration\lib\model\import\class-ai1wm-import-validate.php:79
+Stack trace:
+#0 C:\Users\theor\Local Sites\animationchats\app\public\wp-content\plugins\all-in-one-wp-migration\lib\controller\class-ai1wm-import-controller.php(73): Ai1wm_Import_Validate::execute(Array)
+#1 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\class-wp-hook.php(324): Ai1wm_Import_Controller::import(Array)
+#2 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\Users\theor\Local Sites\animationchats\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ai1wm_i...')
+#5 {main}
+  thrown in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\plugins\all-in-one-wp-migration\lib\model\import\class-ai1wm-import-validate.php on line 79
+[07-Feb-2024 17:27:05 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\plugins\all-in-one-wp-migration\lib\model\import\class-ai1wm-import-validate.php:79
+Stack trace:
+#0 C:\Users\theor\Local Sites\animationchats\app\public\wp-content\plugins\all-in-one-wp-migration\lib\controller\class-ai1wm-import-controller.php(73): Ai1wm_Import_Validate::execute(Array)
+#1 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\class-wp-hook.php(324): Ai1wm_Import_Controller::import(Array)
+#2 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\Users\theor\Local Sites\animationchats\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ai1wm_i...')
+#5 {main}
+  thrown in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\plugins\all-in-one-wp-migration\lib\model\import\class-ai1wm-import-validate.php on line 79
+[07-Feb-2024 17:27:10 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\plugins\all-in-one-wp-migration\lib\model\import\class-ai1wm-import-validate.php:79
+Stack trace:
+#0 C:\Users\theor\Local Sites\animationchats\app\public\wp-content\plugins\all-in-one-wp-migration\lib\controller\class-ai1wm-import-controller.php(73): Ai1wm_Import_Validate::execute(Array)
+#1 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\class-wp-hook.php(324): Ai1wm_Import_Controller::import(Array)
+#2 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\Users\theor\Local Sites\animationchats\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ai1wm_i...')
+#5 {main}
+  thrown in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\plugins\all-in-one-wp-migration\lib\model\import\class-ai1wm-import-validate.php on line 79
+[07-Feb-2024 17:27:16 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\plugins\all-in-one-wp-migration\lib\model\import\class-ai1wm-import-validate.php:79
+Stack trace:
+#0 C:\Users\theor\Local Sites\animationchats\app\public\wp-content\plugins\all-in-one-wp-migration\lib\controller\class-ai1wm-import-controller.php(73): Ai1wm_Import_Validate::execute(Array)
+#1 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\class-wp-hook.php(324): Ai1wm_Import_Controller::import(Array)
+#2 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\Users\theor\Local Sites\animationchats\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ai1wm_i...')
+#5 {main}
+  thrown in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\plugins\all-in-one-wp-migration\lib\model\import\class-ai1wm-import-validate.php on line 79
+[07-Feb-2024 17:27:23 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\plugins\all-in-one-wp-migration\lib\model\import\class-ai1wm-import-validate.php:79
+Stack trace:
+#0 C:\Users\theor\Local Sites\animationchats\app\public\wp-content\plugins\all-in-one-wp-migration\lib\controller\class-ai1wm-import-controller.php(73): Ai1wm_Import_Validate::execute(Array)
+#1 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\class-wp-hook.php(324): Ai1wm_Import_Controller::import(Array)
+#2 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\Users\theor\Local Sites\animationchats\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ai1wm_i...')
+#5 {main}
+  thrown in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\plugins\all-in-one-wp-migration\lib\model\import\class-ai1wm-import-validate.php on line 79
+[07-Feb-2024 17:27:31 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\plugins\all-in-one-wp-migration\lib\model\import\class-ai1wm-import-validate.php:79
+Stack trace:
+#0 C:\Users\theor\Local Sites\animationchats\app\public\wp-content\plugins\all-in-one-wp-migration\lib\controller\class-ai1wm-import-controller.php(73): Ai1wm_Import_Validate::execute(Array)
+#1 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\class-wp-hook.php(324): Ai1wm_Import_Controller::import(Array)
+#2 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\Users\theor\Local Sites\animationchats\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ai1wm_i...')
+#5 {main}
+  thrown in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\plugins\all-in-one-wp-migration\lib\model\import\class-ai1wm-import-validate.php on line 79
+[07-Feb-2024 17:27:40 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\plugins\all-in-one-wp-migration\lib\model\import\class-ai1wm-import-validate.php:79
+Stack trace:
+#0 C:\Users\theor\Local Sites\animationchats\app\public\wp-content\plugins\all-in-one-wp-migration\lib\controller\class-ai1wm-import-controller.php(73): Ai1wm_Import_Validate::execute(Array)
+#1 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\class-wp-hook.php(324): Ai1wm_Import_Controller::import(Array)
+#2 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\Users\theor\Local Sites\animationchats\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ai1wm_i...')
+#5 {main}
+  thrown in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\plugins\all-in-one-wp-migration\lib\model\import\class-ai1wm-import-validate.php on line 79
+[07-Feb-2024 17:27:50 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\plugins\all-in-one-wp-migration\lib\model\import\class-ai1wm-import-validate.php:79
+Stack trace:
+#0 C:\Users\theor\Local Sites\animationchats\app\public\wp-content\plugins\all-in-one-wp-migration\lib\controller\class-ai1wm-import-controller.php(73): Ai1wm_Import_Validate::execute(Array)
+#1 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\class-wp-hook.php(324): Ai1wm_Import_Controller::import(Array)
+#2 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\Users\theor\Local Sites\animationchats\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ai1wm_i...')
+#5 {main}
+  thrown in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\plugins\all-in-one-wp-migration\lib\model\import\class-ai1wm-import-validate.php on line 79
+[07-Feb-2024 17:28:02 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\plugins\all-in-one-wp-migration\lib\model\import\class-ai1wm-import-validate.php:79
+Stack trace:
+#0 C:\Users\theor\Local Sites\animationchats\app\public\wp-content\plugins\all-in-one-wp-migration\lib\controller\class-ai1wm-import-controller.php(73): Ai1wm_Import_Validate::execute(Array)
+#1 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\class-wp-hook.php(324): Ai1wm_Import_Controller::import(Array)
+#2 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\Users\theor\Local Sites\animationchats\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ai1wm_i...')
+#5 {main}
+  thrown in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\plugins\all-in-one-wp-migration\lib\model\import\class-ai1wm-import-validate.php on line 79
+[07-Feb-2024 17:28:14 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\plugins\all-in-one-wp-migration\lib\model\import\class-ai1wm-import-validate.php:79
+Stack trace:
+#0 C:\Users\theor\Local Sites\animationchats\app\public\wp-content\plugins\all-in-one-wp-migration\lib\controller\class-ai1wm-import-controller.php(73): Ai1wm_Import_Validate::execute(Array)
+#1 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\class-wp-hook.php(324): Ai1wm_Import_Controller::import(Array)
+#2 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\Users\theor\Local Sites\animationchats\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ai1wm_i...')
+#5 {main}
+  thrown in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\plugins\all-in-one-wp-migration\lib\model\import\class-ai1wm-import-validate.php on line 79
+[07-Feb-2024 17:28:27 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\plugins\all-in-one-wp-migration\lib\model\import\class-ai1wm-import-validate.php:79
+Stack trace:
+#0 C:\Users\theor\Local Sites\animationchats\app\public\wp-content\plugins\all-in-one-wp-migration\lib\controller\class-ai1wm-import-controller.php(73): Ai1wm_Import_Validate::execute(Array)
+#1 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\class-wp-hook.php(324): Ai1wm_Import_Controller::import(Array)
+#2 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\Users\theor\Local Sites\animationchats\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ai1wm_i...')
+#5 {main}
+  thrown in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\plugins\all-in-one-wp-migration\lib\model\import\class-ai1wm-import-validate.php on line 79
+[07-Feb-2024 17:28:41 UTC] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\plugins\all-in-one-wp-migration\lib\model\import\class-ai1wm-import-validate.php:79
+Stack trace:
+#0 C:\Users\theor\Local Sites\animationchats\app\public\wp-content\plugins\all-in-one-wp-migration\lib\controller\class-ai1wm-import-controller.php(73): Ai1wm_Import_Validate::execute(Array)
+#1 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\class-wp-hook.php(324): Ai1wm_Import_Controller::import(Array)
+#2 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\Users\theor\Local Sites\animationchats\app\public\wp-admin\admin-ajax.php(188): do_action('wp_ajax_ai1wm_i...')
+#5 {main}
+  thrown in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\plugins\all-in-one-wp-migration\lib\model\import\class-ai1wm-import-validate.php on line 79
+[09-Feb-2024 06:10:42 UTC] PHP Warning:  Array to string conversion in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\themes\foce-child\front-page.php on line 30
+[09-Feb-2024 06:10:42 UTC] PHP Warning:  Array to string conversion in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\themes\foce-child\front-page.php on line 33
+[09-Feb-2024 06:10:42 UTC] PHP Warning:  Array to string conversion in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\themes\foce-child\front-page.php on line 36
+[09-Feb-2024 06:10:43 UTC] PHP Warning:  Array to string conversion in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\themes\foce-child\front-page.php on line 39
+[09-Feb-2024 06:10:43 UTC] PHP Warning:  Array to string conversion in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\themes\foce-child\front-page.php on line 42
+[09-Feb-2024 06:14:30 UTC] PHP Warning:  Array to string conversion in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\themes\foce-child\front-page.php on line 35
+[09-Feb-2024 06:14:30 UTC] PHP Warning:  Array to string conversion in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\themes\foce-child\front-page.php on line 38
+[09-Feb-2024 06:14:30 UTC] PHP Warning:  Array to string conversion in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\themes\foce-child\front-page.php on line 41
+[09-Feb-2024 06:14:30 UTC] PHP Warning:  Array to string conversion in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\themes\foce-child\front-page.php on line 44
+[12-Feb-2024 20:53:48 UTC] PHP Parse error:  syntax error, unexpected token "." in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\themes\foce-child\front-page.php on line 20
+[16-Feb-2024 01:06:23 UTC] PHP Parse error:  syntax error, unexpected identifier "get_template_part" in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\themes\foce-child\front-page.php on line 24
+[16-Feb-2024 01:08:22 UTC] PHP Warning:  include(themes\foce-child\template-parts\charactersSection.php): Failed to open stream: No such file or directory in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\themes\foce-child\front-page.php on line 23
+[16-Feb-2024 01:08:22 UTC] PHP Warning:  include(): Failed opening 'themes\foce-child\template-parts\charactersSection.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\themes\foce-child\front-page.php on line 23
+[16-Feb-2024 01:09:11 UTC] PHP Warning:  include(\template-parts\charactersSection.php): Failed to open stream: No such file or directory in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\themes\foce-child\front-page.php on line 23
+[16-Feb-2024 01:09:11 UTC] PHP Warning:  include(): Failed opening '\template-parts\charactersSection.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\themes\foce-child\front-page.php on line 23
+[16-Feb-2024 01:09:13 UTC] PHP Warning:  include(\template-parts\charactersSection.php): Failed to open stream: No such file or directory in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\themes\foce-child\front-page.php on line 23
+[16-Feb-2024 01:09:13 UTC] PHP Warning:  include(): Failed opening '\template-parts\charactersSection.php' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\themes\foce-child\front-page.php on line 23
+[16-Feb-2024 01:09:53 UTC] PHP Warning:  include(\template-parts\charactersSection): Failed to open stream: No such file or directory in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\themes\foce-child\front-page.php on line 23
+[16-Feb-2024 01:09:53 UTC] PHP Warning:  include(): Failed opening '\template-parts\charactersSection' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\themes\foce-child\front-page.php on line 23
+[27-Feb-2024 04:20:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_unregister_script() in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\themes\foce-child\functions.php:29
+Stack trace:
+#0 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\class-wp-hook.php(324): load_scripts('')
+#1 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\script-loader.php(2262): do_action('wp_enqueue_scri...')
+#4 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\class-wp-hook.php(324): wp_enqueue_scripts('')
+#5 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\general-template.php(3052): do_action('wp_head')
+#8 C:\Users\theor\Local Sites\animationchats\app\public\wp-content\themes\foce-child\header.php(24): wp_head()
+#9 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\template.php(790): require_once('C:\\Users\\theor\\...')
+#10 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\template.php(725): load_template('C:\\Users\\theor\\...', true, Array)
+#11 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\Users\theor\Local Sites\animationchats\app\public\wp-content\themes\foce-child\front-page.php(3): get_header()
+#13 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\theor\\...')
+#14 C:\Users\theor\Local Sites\animationchats\app\public\wp-blog-header.php(19): require_once('C:\\Users\\theor\\...')
+#15 C:\Users\theor\Local Sites\animationchats\app\public\index.php(17): require('C:\\Users\\theor\\...')
+#16 {main}
+  thrown in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\themes\foce-child\functions.php on line 29
+[27-Feb-2024 04:21:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_unregister_script() in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\themes\foce-child\functions.php:29
+Stack trace:
+#0 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\class-wp-hook.php(324): load_scripts('')
+#1 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\script-loader.php(2262): do_action('wp_enqueue_scri...')
+#4 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\class-wp-hook.php(324): wp_enqueue_scripts('')
+#5 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\general-template.php(3052): do_action('wp_head')
+#8 C:\Users\theor\Local Sites\animationchats\app\public\wp-content\themes\foce-child\header.php(24): wp_head()
+#9 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\template.php(790): require_once('C:\\Users\\theor\\...')
+#10 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\template.php(725): load_template('C:\\Users\\theor\\...', true, Array)
+#11 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\Users\theor\Local Sites\animationchats\app\public\wp-content\themes\foce-child\front-page.php(3): get_header()
+#13 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\theor\\...')
+#14 C:\Users\theor\Local Sites\animationchats\app\public\wp-blog-header.php(19): require_once('C:\\Users\\theor\\...')
+#15 C:\Users\theor\Local Sites\animationchats\app\public\index.php(17): require('C:\\Users\\theor\\...')
+#16 {main}
+  thrown in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\themes\foce-child\functions.php on line 29
+[27-Feb-2024 04:22:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_unregister_script() in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\themes\foce-child\functions.php:29
+Stack trace:
+#0 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\class-wp-hook.php(324): load_scripts('')
+#1 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\script-loader.php(2262): do_action('wp_enqueue_scri...')
+#4 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\class-wp-hook.php(324): wp_enqueue_scripts('')
+#5 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\general-template.php(3052): do_action('wp_head')
+#8 C:\Users\theor\Local Sites\animationchats\app\public\wp-content\themes\foce-child\header.php(24): wp_head()
+#9 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\template.php(790): require_once('C:\\Users\\theor\\...')
+#10 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\template.php(725): load_template('C:\\Users\\theor\\...', true, Array)
+#11 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\Users\theor\Local Sites\animationchats\app\public\wp-content\themes\foce-child\front-page.php(3): get_header()
+#13 C:\Users\theor\Local Sites\animationchats\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\theor\\...')
+#14 C:\Users\theor\Local Sites\animationchats\app\public\wp-blog-header.php(19): require_once('C:\\Users\\theor\\...')
+#15 C:\Users\theor\Local Sites\animationchats\app\public\index.php(17): require('C:\\Users\\theor\\...')
+#16 {main}
+  thrown in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\themes\foce-child\functions.php on line 29
+[24-Mar-2024 13:08:26 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_enqueue_style" in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\themes\foce-child\functions.php on line 23
+[24-Mar-2024 13:08:26 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_enqueue_style" in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\themes\foce-child\functions.php on line 23
+[24-Mar-2024 13:10:59 UTC] PHP Parse error:  syntax error, unexpected token "}" in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\themes\foce-child\functions.php on line 23
+[24-Mar-2024 13:10:59 UTC] PHP Parse error:  syntax error, unexpected token "}" in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\themes\foce-child\functions.php on line 23
+[24-Mar-2024 13:11:33 UTC] PHP Parse error:  syntax error, unexpected token "}" in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\themes\foce-child\functions.php on line 24
+[24-Mar-2024 13:11:33 UTC] PHP Parse error:  syntax error, unexpected token "}" in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\themes\foce-child\functions.php on line 24
+[24-Mar-2024 13:12:46 UTC] PHP Fatal error:  Cannot redeclare load_scripts() (previously declared in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\themes\foce-child\functions.php:28) in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\themes\foce-child\functions.php on line 47
+[24-Mar-2024 13:12:47 UTC] PHP Fatal error:  Cannot redeclare load_scripts() (previously declared in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\themes\foce-child\functions.php:28) in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\themes\foce-child\functions.php on line 47
+[24-Mar-2024 13:13:08 UTC] PHP Fatal error:  Cannot redeclare load_scripts() (previously declared in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\themes\foce-child\functions.php:28) in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\themes\foce-child\functions.php on line 47
+[24-Mar-2024 13:13:08 UTC] PHP Fatal error:  Cannot redeclare load_scripts() (previously declared in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\themes\foce-child\functions.php:28) in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\themes\foce-child\functions.php on line 47
+[24-Mar-2024 13:13:32 UTC] PHP Fatal error:  Cannot redeclare load_scripts() (previously declared in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\themes\foce-child\functions.php:22) in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\themes\foce-child\functions.php on line 41
+[24-Mar-2024 13:13:33 UTC] PHP Fatal error:  Cannot redeclare load_scripts() (previously declared in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\themes\foce-child\functions.php:22) in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\themes\foce-child\functions.php on line 41
+[24-Mar-2024 13:13:34 UTC] PHP Fatal error:  Cannot redeclare load_scripts() (previously declared in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\themes\foce-child\functions.php:22) in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\themes\foce-child\functions.php on line 41
+[24-Mar-2024 13:13:34 UTC] PHP Fatal error:  Cannot redeclare load_scripts() (previously declared in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\themes\foce-child\functions.php:22) in C:\Users\theor\Local Sites\animationchats\app\public\wp-content\themes\foce-child\functions.php on line 41

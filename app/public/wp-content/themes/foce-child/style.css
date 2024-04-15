@@ -1,0 +1,703 @@
+/** Animations **/
+/* Animation FadeIn*/
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.fade-in-item {
+  animation: fadeIn ease 3s;
+}
+
+/**/
+/* Fade In des sections */
+.fadeInStory {
+  opacity: 0;
+}
+
+.fadeInStudio {
+  opacity: 0;
+}
+
+/**/
+/* Animation FadeOut */
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+.fade-out {
+  animation: fadeOut 1s ease-out;
+}
+
+/**/
+/* Animation Rotation infini */
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.story__article::after,
+.story h2::after,
+#studio h2::before,
+#studio h2::after,
+.story .titleHisBG::after,
+footer::after,
+footer::before {
+  animation: rotation 10s linear infinite;
+}
+
+/**/
+/* Animation Float */
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-15px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+@keyframes catfloat {
+  0% {
+    transform: translatey(0px) translateX(0px);
+  }
+  50% {
+    transform: translatey(-20px) translateX(0px);
+  }
+  100% {
+    transform: translatey(0px) translateX(0px);
+  }
+}
+#floatitem {
+  animation: float 3s ease-in-out infinite;
+}
+
+/**/
+/* Fade In up settings */
+.fadeInUpJS {
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+/**/
+/* Fade In Up settings Studio */
+#studioSpan1,
+#studioSpan2 {
+  position: relative;
+  opacity: 0;
+  top: 50px;
+}
+
+/**/
+/**  **/
+/* Header */
+.menuFullPage {
+  display: none;
+  flex-direction: column;
+  background-color: #fff5e9;
+  height: 100vh;
+  z-index: 999;
+  transition: transform 0.5s ease-in-out;
+  transform: translateY(-100%);
+  overflow: hidden;
+}
+
+.menuFullPage.open {
+  transform: translateY(0);
+}
+
+.menuLogo {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+.menuLogo img {
+  width: 15%;
+  height: auto;
+}
+
+.menuItems {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+}
+.menuItems ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around !important;
+  line-height: 100px;
+  padding-bottom: 15vh;
+}
+.menuItems ul li {
+  margin-top: 17px;
+  list-style: none;
+}
+.menuItems ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: 64px;
+  font-weight: 400;
+}
+.menuItems ul li a:hover {
+  transition: all 0.2s ease-in-out;
+  text-shadow: 0 2px 10px rgb(255, 128, 0);
+}
+
+.menuStudio {
+  display: flex;
+  justify-content: center;
+}
+
+.menuLinkStory::before {
+  content: "";
+  width: 172.57px;
+  height: 168.24px;
+  background-image: url("./assets/images/orchid.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  top: -15vh;
+  left: -43vw;
+  animation: rotation 10s linear infinite;
+}
+.menuLinkStory::after {
+  content: "";
+  width: 216px;
+  height: 216px;
+  background-image: url("./assets/images/Sunflower.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: -3vh;
+  left: 35vw;
+  animation: rotation 10s linear infinite;
+}
+
+.menuLinkPers::before {
+  content: "";
+  width: 109.22px;
+  height: 98.63px;
+  background-image: url("./assets/images/cat.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: -20vh;
+  left: -15vw;
+  animation: catfloat 10s ease-in-out infinite;
+}
+.menuLinkPers::after {
+  content: "";
+  width: 154.74px;
+  height: 147.57px;
+  background-image: url("./assets/images/cat2.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 10vh;
+  left: 43vw;
+  animation: catfloat 7s ease-in-out infinite;
+}
+
+.menuLinkPlace::before {
+  content: "";
+  width: 70.76px;
+  height: 70.76px;
+  background-image: url("./assets/images/flower.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: -3vh;
+  left: -30vw;
+  animation: rotation 10s linear infinite;
+}
+.menuLinkPlace::after {
+  content: "";
+  width: 75.75px;
+  height: 75.75px;
+  background-image: url("./assets/images/random_flower.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: -15vh;
+  left: 52vw;
+  animation: rotation 10s linear infinite;
+}
+
+.menuLinkStudio::before {
+  content: "";
+  width: 105.91px;
+  height: 95.65px;
+  background-image: url("./assets/images/cat3.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 4vh;
+  left: -27vw;
+  animation: catfloat 5s ease-in-out infinite;
+}
+.menuLinkStudio::after {
+  content: url("./assets/images/hibiscus_footer.png");
+  position: absolute;
+  top: 0vh;
+  left: 47vw;
+}
+
+#menuBurger {
+  width: 40px;
+  height: 40px;
+  display: block !important;
+  position: relative;
+  left: 25vw;
+}
+
+#menuBurger:hover {
+  transition: 0.5s;
+  opacity: 60%;
+}
+
+.main-navigation #navBar {
+  justify-content: center !important;
+}
+
+@media screen and (max-width: 900px) {
+  .menuLinkStory::before {
+    display: none;
+  }
+  .menuLinkStory::after {
+    display: none;
+  }
+  .menuLinkPers::before {
+    display: none;
+  }
+  .menuLinkPers::after {
+    display: none;
+  }
+  .menuLinkPlace::before {
+    display: none;
+  }
+  .menuLinkPlace::after {
+    display: none;
+  }
+  .menuLinkStudio::before {
+    display: none;
+  }
+  .menuLinkStudio::after {
+    display: none;
+  }
+}
+@media screen and (min-width: 1460px) {
+  .menuLinkStory::before {
+    top: -110px;
+    left: -640px;
+  }
+  .menuLinkStory::after {
+    top: -110px;
+    left: 500px;
+  }
+  .menuLinkPers::before {
+    top: -130px;
+    left: -280px;
+  }
+  .menuLinkPers::after {
+    top: 95px;
+    left: 550px;
+  }
+  .menuLinkPlace::before {
+    top: -15px;
+    left: -480px;
+  }
+  .menuLinkPlace::after {
+    top: -50px;
+    left: 750px;
+  }
+  .menuLinkStudio::before {
+    top: 100px;
+    left: -400px;
+  }
+  .menuLinkStudio::after {
+    top: 80px;
+    left: 650px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .menu-toggle {
+    display: block;
+  }
+  .main-navigation {
+    height: 80px;
+  }
+  .main-navigation ul {
+    display: flex;
+    margin: 0;
+    padding-left: 0;
+  }
+  .main-navigation ul .site-title {
+    display: none;
+  }
+  .burgerBtn {
+    display: flex;
+    justify-content: center;
+  }
+  #menuBurger {
+    left: 0;
+  }
+  .menuItems ul li a {
+    font-size: 32px;
+  }
+}
+/**/
+/* Video HeroHeader */
+.banner {
+  position: relative;
+  min-height: 806px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner img {
+  position: relative;
+  z-index: 2;
+  margin-top: -10%;
+  width: 50%;
+  height: auto;
+}
+
+#background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+/**/
+/* Section Histoire */
+section {
+  overflow: hidden;
+}
+
+.titleHisBG {
+  color: #FFF5E9;
+  font-size: 4.429rem;
+  background-image: url("./assets/images/purple_title_bg.png");
+  background-color: #FFF5E9;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0;
+  background-position: center;
+  text-align: center;
+}
+.titleHisBG h2 {
+  position: relative;
+  color: #FFF5E9;
+  font-size: 4.429rem;
+  background-image: none;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 1em 2em;
+  margin: 0;
+  background-position: center;
+  text-align: center;
+}
+
+.story .titleHisBG::before {
+  content: url(./assets/images/sunflower_leaves.png);
+  position: absolute;
+  left: 0;
+  top: 1.8em;
+  z-index: -1;
+}
+
+.story .titleHisBG::after {
+  content: url(./assets/images/Sunflower.png);
+  position: absolute;
+  left: 0.7em;
+  top: 6em;
+}
+
+.story h2::before,
+.story h2::after {
+  content: none;
+  position: none;
+}
+
+@media screen and (max-width: 1192px) {
+  .story__article::before,
+  .story__article::after {
+    position: none;
+    content: "";
+  }
+  .story .titleHisBG::before,
+  .story .titleHisBG::after {
+    content: none;
+    position: none;
+  }
+}
+@media screen and (max-width: 921px) {
+  .story .titleHisBG::before {
+    content: none;
+    position: none;
+  }
+  .story .titleHisBG::after {
+    content: none;
+    position: none;
+  }
+}
+/**/
+/* Section Personnages */
+.titlePersBG {
+  background-image: url(./assets/images/orange_characters_bg.png);
+  color: #FFF5E9;
+  font-size: 3rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 0.5em 2em;
+  margin: 0;
+  background-position: center;
+  text-align: center;
+}
+.titlePersBG h3 {
+  background-image: none !important;
+  position: relative;
+}
+
+.story #characters {
+  margin: 0;
+  flex-direction: column;
+}
+
+.all-characters {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+
+@media screen and (max-width: 672px) {
+  .titlePersBG {
+    background-size: 25%;
+  }
+}
+/** Swiper **/
+.swiper {
+  width: 100%;
+  padding-bottom: 90px;
+  overflow: hidden;
+}
+
+.swiper-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+/** **/
+/**/
+/* Section Lieu */
+.story #place {
+  background-image: url("./assets/images/Studio_Koukaki-image_place.png");
+}
+.story #place .cloudContainer {
+  position: absolute;
+  left: 75%;
+  transform: translateY(60px);
+}
+.story #place .cloudContainer #bigCloud {
+  background-image: url("./assets/images/big_cloud.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 80px;
+  filter: blur(10px);
+}
+.story #place .cloudContainer #litleCloud {
+  background-image: url("./assets/images/little_cloud.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 130px;
+  height: 60px;
+  filter: blur(10px);
+  transform: translateY(-30px) translateX(60%);
+}
+
+@media screen and (max-width: 672px) {
+  .cloudContainer {
+    display: none;
+  }
+  #bigCloud {
+    background-image: none !important;
+  }
+  #litleCloud {
+    background-image: none !important;
+  }
+}
+/**/
+/* Section Studio */
+#studio {
+  position: relative;
+  margin-top: 3em;
+}
+#studio .studioTitleBG {
+  overflow: hidden;
+  background-image: url("./assets/images/purple_studio_bg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  justify-content: center;
+  background-position: center;
+}
+#studio .studioTitleBG::before {
+  content: url("./assets/images/random_flower.png");
+  position: absolute;
+  animation: rotation 10s linear infinite;
+  left: -1em;
+  top: 0;
+}
+#studio .studioTitleBG::after {
+  content: url("./assets/images/flower.png");
+  position: absolute;
+  animation: rotation 10s linear infinite;
+  right: 1em;
+  top: 1.2em;
+}
+#studio .studioTitleBG #studioSpan1 {
+  margin-right: 15px;
+}
+#studio > .studioContent {
+  display: flex;
+  justify-content: space-between;
+  width: 66.66%;
+  margin: auto;
+}
+#studio > .studioContent::before {
+  content: url("./assets/images/trple-leaf.png");
+  position: absolute;
+  left: calc(50% - 17.225px);
+  top: 40%;
+}
+#studio > .studioContent p {
+  width: 44.5%;
+}
+
+#studio h2 {
+  overflow: hidden;
+  background-image: none;
+  background: transparent;
+  text-wrap: nowrap;
+  display: flex;
+  justify-content: center;
+}
+#studio h2::before {
+  content: "";
+  position: none;
+}
+#studio h2::after {
+  content: "";
+  position: none;
+}
+#studio > div::before {
+  content: "";
+  position: none;
+}
+#studio > div p {
+  width: 44.5%;
+}
+
+@media all and (max-width: 921px) {
+  #studio .studioTitleBG::before {
+    content: "";
+    position: none;
+  }
+  #studio .studioTitleBG::after {
+    content: "";
+    position: none;
+  }
+  #studio > .studioContent::before {
+    content: "";
+    position: none;
+  }
+  #studio > .studioContent p {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 672px) {
+  .studioTitleBG h2 span {
+    font-size: 32px;
+  }
+  #studio .studioTitleBG #studioSpan1 {
+    margin-right: 10px;
+  }
+  #studio .studioTitleBG {
+    background-size: 105%;
+  }
+}
+/**/
+/* Section Oscar */
+.Oscarcont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+.Oscarcont .oscarLogo {
+  width: 20%;
+}
+.Oscarcont .oscarLogo img {
+  width: 95%;
+  height: auto;
+}
+
+.fadeInOscar {
+  opacity: 0;
+}
+
+.oscartitleBG {
+  color: #FFF5E9;
+  font-size: 2rem;
+  background-image: url("./assets/images/orange_place_bg.png");
+  background-color: #FFF5E9;
+  background-repeat: no-repeat;
+  background-size: 110%;
+  padding: 1em 2em;
+  margin: 0;
+  background-position: center;
+  text-align: center;
+}
+
+@media screen and (max-width: 672px) {
+  .Oscarcont {
+    flex-direction: column;
+  }
+  .oscartitleBG h5 {
+    font-size: 19px;
+  }
+  .oscarLogo {
+    width: 50% !important;
+  }
+}
+/**/
+
+/*# sourceMappingURL=style.css.map */
